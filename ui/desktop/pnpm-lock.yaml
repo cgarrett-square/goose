@@ -98,7 +98,7 @@ importers:
         version: 12.34.3(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       goose-acp-types:
         specifier: file:../acp
-        version: '@block/goose-acp@file:../acp(@agentclientprotocol/sdk@0.15.0(zod@3.25.76))'
+        version: '@aaif/goose-acp@file:../acp(@agentclientprotocol/sdk@0.15.0(zod@3.25.76))'
       katex:
         specifier: ^0.16.33
         version: 0.16.33
@@ -440,7 +440,7 @@ packages:
     resolution: {integrity: sha512-6zABk/ECA/QYSCQ1NGiVwwbQerUCZ+TQbp64Q3AgmfNvurHH0j8TtXa1qbShXA6qqkpAj4V5W8pP6mLe1mcMqA==}
     engines: {node: '>=18'}
 
-  '@block/goose-acp@file:../acp':
+  '@aaif/goose-acp@file:../acp':
     resolution: {directory: ../acp, type: directory}
     peerDependencies:
       '@agentclientprotocol/sdk': '*'
@@ -6633,7 +6633,7 @@ snapshots:
 
   '@bcoe/v8-coverage@1.0.2': {}
 
-  '@block/goose-acp@file:../acp(@agentclientprotocol/sdk@0.15.0(zod@3.25.76))':
+  '@aaif/goose-acp@file:../acp(@agentclientprotocol/sdk@0.15.0(zod@3.25.76))':
     dependencies:
       '@agentclientprotocol/sdk': 0.15.0(zod@3.25.76)
       zod: 3.25.76
